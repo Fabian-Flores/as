@@ -1,0 +1,45 @@
+.padre{
+	display: flex;
+/*	flex-direction: row-reverse;*/
+	width: 600px;
+	height: 200px;
+	border: 1px solid;
+	/*justify-content: start;*/
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.padre > div {
+	height: 50px;
+	margin: 5px;
+	background-color: #ccc;
+}
+
+.caja-1{
+/*	max-width: 50px;*/	
+	flex: 1 1 100px;
+	/*order: 2;*/
+	/*width: 100px;*/
+}
+
+.caja-2{
+	/*width: 100px;*/
+	flex: 1 1 100px;
+	/*order: 4;*/
+	/*width: 100px;*/
+	/*align-self: center;*/
+}
+
+.caja-3{
+	/*width: 100px;*/
+	flex: 1 1 100px;
+	/*order: 3;*/
+	/*width: 100px;*/
+}
+
+.caja-4{
+	/*width: 100px;*/
+	flex: 1 1 400px;
+	/*order: 1;*/
+	/*width: 100px;*/}
+}

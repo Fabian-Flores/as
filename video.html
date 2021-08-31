@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1 id="title">Este es el título</h1>
+	</header>
+	<nav>
+		<a href="index.html">Principla</a>|
+		<a href="fotos.html">Fotos</a>|
+		<a href="video.html">Videos</a>|
+		<a href="contacto.html">Contacto</a>
+	</nav>
+
+	<form method="get" action="procesar.php">
+		<p><input type="texto" name="val" required autofocus autocomplete="off"></p>
+		<p><input type="search" name="val2" ></p>
+		<p><input pattern="[0-9]{5}" name="cp" title="Inserte el código postal"></p>
+		<p><label>correo<input type="email" name="correo" multiple=""></label></p>
+		<p><input type="submit" value="Enviar"></p>
+		<p><input type="submit" value="grabar" formnovalidate></p>
+	</form>
+
+</body>
+</html>

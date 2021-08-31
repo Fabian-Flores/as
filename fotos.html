@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1>Fotos</h1>
+	</header>
+	<nav>
+		<a href="index.html">Principla</a>|
+		<a href="fotos.html">Fotos</a>|
+		<a href="video.html">Videos</a>|
+		<a href="contacto.html">Contacto</a>
+	</nav>
+	<table>
+		<tr>
+			<th>Título</th>
+			<th>Autor</th>
+			<th>Año</th>
+		</tr>
+		<tr>
+			<td>IT</td>
+			<td>Stephen King</td>
+			<td>1986</td>
+		</tr>
+		<tr>
+			<td>Carrie</td>
+			<td>Stephen King</td>
+			<td>1974</td>
+		</tr>
+		<tr>
+			<td>El Resplandor</td>
+			<td>Stephen King</td>
+			<td>1977</td>
+		</tr>
+
+	</table>
+
+	<article>
+		<p>My favorite movie is <span translate="no">Two Roads</span></p>
+
+		<p>My favorite movie is <span contenteditable>Casablanca</span></p>
+	</article>
+	<section>
+		<input type="date" name="fecha" datetiem-local >
+	</section>
+
+	<section>
+		<input type="color" name="mycolor" value="#99BB00">
+	</section>
+	<section>
+		<form name="formulario" method="get" action="procesar.php">
+			<p><label>Nombre: <input type="text" name="nombre"></label></p>
+			<p><label>Edad: <input type="text" name="edad"></label></p>
+			<p><button type="submit">Enviar Formulario</button></p>
+		</form>
+	</section>
+	<section>
+		<form name="formulario" method="get" action="procesar.php">
+			<textarea name="texto" cols="10" rows="5" placeholder="Introduzca lo que quiera"></textarea>
+		
+	</section>
+	<section>
+		<form name="formulario" method="get" action="procesar.php">
+			<label for="listado">Libros</label>
+			<select name="libros" id="listado">
+				<option value="1">IT</option>
+				<option value="2">Carrie</option>
+				<option value="3">Resplandor</option>
+				<option value="4">misery</option>
+			</select>
+			<p><input type="submit" value="Enviar"></p>
+		</form>
+	</section>
+	<section>
+		<form name="formulario" method="get" action="procesar,php">
+			<datalist id="datos">
+				<option value="5583338222" label="Fabian"></option>
+				<option value="5538912483" label="Corazon"></option>
+			</datalist>
+			<p>
+				<label>Telefonos <input type="tel" name="telefonos" list="datos"></label>
+			</p>
+			<p>
+				<input type="submit" value="Enviar">
+			</p>
+		</form>
+	</section>
+	<section>
+		<progress value="42" max="100">0%</progress>
+	</section>
+	<section>
+		<meter value="25" min="0" max="100" low="40" high="80" optimum="100">25</meter>
+
+	</section>
+		<meter value="60" min="0" max="100" low="40" high="80" optimum="100">60</meter>
+
+</body>
+</html>
